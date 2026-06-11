@@ -1,0 +1,6 @@
+{
+  "name": "Stopwatch",
+  "description": "A simple, highly accurate stopwatch with start/stop and pause/resume controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
