@@ -241,6 +241,17 @@ export default function App() {
               </>
             )}
           </motion.button>
+        {/* NEW: Write Button */}
+  <motion.button
+    onClick={handleWrite}
+    whileHover={{ scale: 1.02 }}
+    whileTap={{ scale: 0.98 }}
+    className="flex-1 flex items-center justify-center gap-2 py-4 px-6 rounded-2xl text-base font-semibold text-white shadow-lg transition-colors duration-200 cursor-pointer bg-violet-600 hover:bg-violet-500 shadow-violet-600/25 border-t border-violet-500/10"
+  >
+    <Save className="w-5 h-5 fill-white/10" />
+    <span>Write</span>
+  </motion.button>
+     
         </div>
       </div>
     </div>
